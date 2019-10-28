@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia, serif;
+  font-family: Merriweather, serif;
   font-size: 1.125em;
 }
 
@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #d05c2e;
-  padding: 2em 0;
+  padding: 1em 0em 0em;
 }
 
 h1 {
@@ -27,14 +27,16 @@ h1 {
   justify-content: center;
   display: flex;
   margin: 0;
+  margin-top: .1em;
   padding: 0;
   list-style-type: none;
   text-align: center;
+  align-items: center;
 }
 
 .nav li {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   margin-top: 1em;
 }
 
