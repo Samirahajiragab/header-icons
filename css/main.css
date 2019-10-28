@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font: normal 100%/ Georgia, serif;
+  font-family: Georgia, serif;
   font-size: 1.125em;
 }
 
@@ -14,7 +14,7 @@ body {
 
 header {
   background-color: #d05c2e;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 h1 {
@@ -37,18 +37,19 @@ h1 {
   font-size: 1.5rem;
   margin-top: 1em;
 }
+
 .nav a {
   margin-left: 0;
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 0.5em 0.75em;
+  padding: .5em .75em;
   background-color: #d05c2e;
   border-top: 3px solid #a63f38;
   border-right: 3px solid #a63f38;
 }
 
-.nav a:hover{
+.nav a:hover {
   background-color: #a63f38;
 }
 
