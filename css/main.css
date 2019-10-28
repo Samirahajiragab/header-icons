@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  background-color: #d05c2e;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+
+.label {
+  font-size: 1.5rem;
+  background-color: green;
+  color: #fff;
+  margin-top: 0;
+  padding: .5em;
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
